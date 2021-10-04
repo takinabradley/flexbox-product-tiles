@@ -1,0 +1,40 @@
+html, body, div, p, header, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: lightgray;
+	padding: 8px 16px;
+}
+
+/* top bar layout */
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 8px;
+	gap: 4px;
+	justify-content: center;
+}
+
+.product-tile {
+	display: flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	border: 1px solid black;
+	height: 250px;
+	width: 250px;
+}
+
+.product-image {
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	display: block;
+	background-color: rgba(115, 153, 185, .75);
+	margin-top: -38px;
+	padding: 0px 4px;
+}
+/* product tile layout */
